@@ -85,7 +85,7 @@
     <None Include="Resources\157_GetPermission_48x48_72.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tulpep.NotificationWindow\NotificationWindow.csproj">
+    <ProjectReference Include="..\NotificationWindow\NotificationWindow.csproj">
       <Project>{605006eb-d4e6-4312-a293-3a43fac43240}</Project>
       <Name>NotificationWindow</Name>
     </ProjectReference>
