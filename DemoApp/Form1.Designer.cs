@@ -1,4 +1,9 @@
-﻿namespace DemoApp
+﻿using JohnBPearson.Windows.Forms;
+
+    
+    
+    
+namespace DemoApp
 {
     partial class Form1
     {
@@ -56,7 +61,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label8 = new System.Windows.Forms.Label();
             this.txtAnimationDuration = new System.Windows.Forms.TextBox();
-            this.popupNotifier1 = new Tulpep.NotificationWindow.PopupNotifier();
+            this.popupNotifier = new PopupNotifier();
             this.chkIsRightToLeft = new System.Windows.Forms.CheckBox();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -306,17 +311,17 @@
             // 
             // popupNotifier1
             // 
-            this.popupNotifier1.BodyColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.popupNotifier1.ContentFont = new System.Drawing.Font("Tahoma", 8F);
-            this.popupNotifier1.ContentText = null;
-            this.popupNotifier1.GradientPower = 300;
-            this.popupNotifier1.HeaderHeight = 20;
-            this.popupNotifier1.Image = null;
-            this.popupNotifier1.IsRightToLeft = false;
-            this.popupNotifier1.OptionsMenu = this.contextMenuStrip1;
-            this.popupNotifier1.Size = new System.Drawing.Size(400, 100);
-            this.popupNotifier1.TitleFont = new System.Drawing.Font("Segoe UI", 9F);
-            this.popupNotifier1.TitleText = null;
+            this.popupNotifier.BodyColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 8F);
+            this.popupNotifier.ContentText = null;
+            this.popupNotifier.GradientPower = 300;
+            this.popupNotifier.HeaderHeight = 20;
+            this.popupNotifier.Image = null;
+            this.popupNotifier.IsRightToLeft = false;
+            this.popupNotifier.OptionsMenu = this.contextMenuStrip1;
+            this.popupNotifier.Size = new System.Drawing.Size(400, 100);
+            this.popupNotifier.TitleFont = new System.Drawing.Font("Segoe UI", 9F);
+            this.popupNotifier.TitleText = null;
             // 
             // chkIsRightToLeft
             // 
@@ -398,7 +403,7 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtAnimationDuration;
-        private Tulpep.NotificationWindow.PopupNotifier popupNotifier1;
+        private PopupNotifier popupNotifier;
         private System.Windows.Forms.CheckBox chkIsRightToLeft;
     }
 }
