@@ -12,12 +12,12 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 
-namespace JohnBPearson.Windows.Forms
+namespace JohnBPearson.Windows.Forms.Alert
 {
     /// <summary>
     /// This is the form of the actual notification window.
     /// </summary>
-    internal class PopupNotifierForm : System.Windows.Forms.Form
+    public class PopupNotifierForm : System.Windows.Forms.Form
     {
         /// </summary>
         /// <summary>
