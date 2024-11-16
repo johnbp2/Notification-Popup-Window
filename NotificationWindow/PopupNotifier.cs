@@ -13,7 +13,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace JohnBPearson.Windows.Forms
+namespace JohnBPearson.Windows.Forms.Alert
 {
     /// <summary>
     /// Non-visual component to show a notification window in the right lower
